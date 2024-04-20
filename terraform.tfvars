@@ -7,6 +7,8 @@ parameters = {
 
   "rds.dev.database_name" = { type = "String",  value = "dummy" }
 
+  "user.dev.REDIS_HOST" = { type = "String",  value = "dev-redis-elasticache-cluster.vipgov.0001.use1.cache.amazonaws.com" }
+
   #Passwords
   "docdb.dev.master_password" = { type = "String",  value = "roboshop1234" }
   "rds.dev.master_password" = { type = "String",  value = "roboshop1234" }
