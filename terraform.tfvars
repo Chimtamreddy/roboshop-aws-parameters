@@ -12,7 +12,7 @@ parameters = {
   "cart.dev.CATALOGUE_HOST" = { type = "String",  value = "catalogue-dev.kr7348202.online" }
   "cart.dev.CATALOGUE_PORT" = { type = "String",  value = "80" }
 
-  "shipping.dev.CART_ENDPOINT" = { type = "String",  value = "cart-dev.kr7348202.online" }
+  "shipping.dev.CART_ENDPOINT" = { type = "String",  value = "cart-dev.kr7348202.online:80" }
   "shipping.dev.DB_HOST" = { type = "String",  value = "dev-mysql-rds-cluster.cluster-cvcecuwaukhg.us-east-1.rds.amazonaws.com" }
 
   "payment.dev.CART_HOST" = { type = "String",  value = "cart-dev.kr7348202.online" }
