@@ -21,7 +21,7 @@ parameters = {
   "payment.dev.USER_PORT" = { type = "String",  value = "80" }
   "payment.dev.AMQP_HOST" = { type = "String",  value = "rabbitmq-dev.kr7348202.online" }
 
-
+  "rabbitmq.dev.AMQP_USER" = { type = "String",  value = "roboshop" }
   "rabbitmq.dev.AMQP_PASS" = { type = "String",  value = "roboshop123" }
 
   #Passwords
